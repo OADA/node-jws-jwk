@@ -1,8 +1,17 @@
+[![Dependency Status](https://david-dm.org/oada/node-jws-jwk.svg)](https://david-dm.org/oada/node-jws-jwk)
+[![License](http://img.shields.io/:license-Apache%202.0-green.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
+
 node-jws-jwk
 ============
 
 This is basically just [node-jws][] augmented so that
 `secretOrKey` can be a [JWK][] or set of [JWKs][].
+
+Install
+-------
+```shell
+$ npm install jws-jwk
+```
 
 Example
 -------
