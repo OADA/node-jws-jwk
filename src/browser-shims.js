@@ -40,10 +40,10 @@ shims.verify = function(signature, secretOrKey) {
 
     switch (jwk.kty) {
         case 'PEM':
-            return (new jsjws.JWS()).verifyJWSByKey(signature, secretOrKey.pem);
+            return (new jsjws.JWS()).verifyJWSByKey(signature, jwk.pem);
         case 'RSA':
-            var hN = jsrsasign.b64utohex(secretOrKey.n);
-            var hE = jsrsasign.b64utohex(secretOrKey.e);
+            var hN = jsrsasign.b64utohex(jwk.n);
+            var hE = jsrsasign.b64utohex(jwk.e);
             return (new jsjws.JWS()).verifyJWSByNE(signature, hN, hE);
         default:
             throw new utils.KeyTypeError();
