@@ -39,6 +39,7 @@ utils.findJWK = function findJWK(kid, jwks) {
             res = jwk;
             return false;
         }
+        return true;
     });
 
     if (!res) {
