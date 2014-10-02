@@ -48,9 +48,10 @@ to make `jws.verify` work in-browser (with JWKs and normally).
 
 References
 ----------
-[node-jws]: https://github.com/brianloveswords/node-jws "jws"
 1. [node-jws][]
 2. [JSON Web Key (JWK) Draft 31](https://tools.ietf.org/html/draft-ietf-jose-json-web-key-31)
+
+[node-jws]: https://github.com/brianloveswords/node-jws "jws"
 [JWK]: https://tools.ietf.org/html/draft-ietf-jose-json-web-key-31#section-4 "JSON Web Key"
 [JWKs]: https://tools.ietf.org/html/draft-ietf-jose-json-web-key-31#section-5 "JSON Web Key Set"
 [jsonwebtoken]: https://github.com/auth0/node-jsonwebtoken
