@@ -1,6 +1,8 @@
 [![Dependency Status](https://david-dm.org/oada/node-jws-jwk.svg)](https://david-dm.org/oada/node-jws-jwk)
 [![License](http://img.shields.io/:license-Apache%202.0-green.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
+***This project is deprecated. node-jws now accepts arbitrary keys (can add kid) and the JWK can be converted to PEM format easily with rsa-pem-from-mod-exp and the .shim() never worked right. We should submit a PR to node-jws to support JWK(S)***
+
 node-jws-jwk
 ============
 
